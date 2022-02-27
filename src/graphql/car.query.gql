@@ -1,0 +1,14 @@
+query  carList  {
+  carList {
+    codcoche
+    imagen
+    nombre
+    modelo
+    Precio
+    Kilometros
+    Ano
+    descripcion
+
+  }
+ 
+}

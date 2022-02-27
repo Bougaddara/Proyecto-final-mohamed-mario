@@ -1,0 +1,17 @@
+
+query CarId($codcoche: ID!) {
+  carId(codcoche: $codcoche) {
+    data {
+      id
+      codcoche
+      nombre
+      modelo
+      imagen
+      Kilometros
+      Ano
+      descripcion
+      Combustible
+      Precio
+    }
+  }
+}
